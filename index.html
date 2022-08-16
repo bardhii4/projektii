@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Dashboard Admin</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<h2>Dashboard</h2>
+				</div>
+				<nav>
+					<ul class="header__list">
+						<li class="header__list--item home"><a href="#home">Home</a></li>
+						<li class="header__list--item projects"><a href="#projects">Projects</a></li>
+						<li class="header__list--item tasks"><a href="#tasks">Tasks</a></li>
+						<li class="header__list--item reports"><a href="#reports">Reports</a></li>
+						<li class="header__list--item settings"><a href="#settings">Settings</a></li>
+						<div class="header__admin">
+							<img src="images/admin.svg" alt="admin" />
+							<div class="header__admin--role">
+								<h4>Elizabeth F</h4>
+								<span>Admin</span>
+							</div>
+						</div>
+					</ul>
+
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+				<div class="header__admin">
+					<img src="images/admin.svg" alt="admin" />
+					<div class="header__admin--role">
+						<h4>Elizabeth F</h4>
+						<span>Admin</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="intro" id="home">
+			<div class="container">
+				<div class="intro__wrapper">
+					<h3>Hi Elizabeth</h3>
+					<p>Welcome to Dashboard!</p>
+					<div class="intro__boxes">
+						<div class="intro__box intro__name">
+							<div class="intro__box--content">
+								<img src="images/admin.svg" alt="admin" />
+								<div class="intro__box--headline">
+									<h4>Elizabeth Foster</h4>
+									<span>Web & Graphic Designer</span>
+								</div>
+								<div class="intro__box--edit">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<div class="intro__box--info">
+								<ul>
+									<li class="email">xyz@mail.com</li>
+									<li class="phone">+00 123-456-789</li>
+								</ul>
+							</div>
+
+							<span class="break-hr"></span>
+
+							<div class="intro__box--range">
+								<div class="intro__range blue">
+									<h4>Project Completion <span>85%</span></h4>
+									<span class="range"></span>
+								</div>
+								<div class="intro__range orange">
+									<h4>Overall Rating <span>7.5%</span></h4>
+									<span class="range"></span>
+								</div>
+							</div>
+						</div>
+						<div class="intro__box--tasks">
+							<div class="intro__task">
+								<div class="intro__task--icon">
+									<img src="./images/task-1-icon.svg" alt="icon">
+								</div>
+								<div class="intro__task--content">
+									<h4>21 <span>Tasks completed</span></h4>
+								</div>
+							</div>
+							<div class="intro__task intro__task--inprogress">
+								<div class="intro__task--icon">
+									<img src="./images/task-2-icon.svg" alt="icon">
+								</div>
+								<div class="intro__task--content">
+									<h4>21 <span>Tasks Inprogress</span></h4>
+								</div>
+							</div>
+						</div>
+						<div class="intro__box--revenue">
+							<div class="intro__revenue">
+								<div class="intro__revenue--content">
+									<h4>Revenue</h4>
+									<div class="intro__box--edit">
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="intro__revenue--price">
+									<h4>$2,100</h4>
+									<p>Last Week</p>
+								</div>
+								<span class="break-hr"></span>
+
+								<div class="intro__revenue--graph">
+									<div class="intro__box--graph">
+										<div class="intro__graph">
+											<img src="./images/increase-graph.svg" alt="icon">
+										</div>
+										<div class="intro__percentage">
+											<span>15 %</span>
+											<h5>Prev Week</h5>
+										</div>
+									</div>
+									<div class="intro__box--graph">
+										<div class="intro__graph">
+											<img src="./images/decrease-graph.svg" alt="icon">
+										</div>
+										<div class="intro__percentage">
+											<span>10 %</span>
+											<h5>Prev Month</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<div class="container">
+				<div class="projects__wrapper">
+					<div class="projects__title">
+						<h3>Recent Projects</h3>
+					</div>
+					<div class="projects__boxes">
+						<div class="projects__box">
+							<div class="projects__date">
+								<span>Apr 09, 2022</span>
+								<div class="projects--edit">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<h3>Shreyu - Design Updates</h3>
+							<span class="metabox">Designing</span>
+							<p>Update shreyu with modern and latest trends...</p>
+							<div class="projects__progress">
+								<h3>Progress<span>75%</span></h3>
+								<span class="projects__progress--bar"></span>
+							</div>
+							<div class="projects__images">
+								<img src="" alt="" />
+								<img src="" alt="" />
+							</div>
+						</div>
+						<div class="projects__box projects__box--red">
+							<div class="projects__date">
+								<span>Apr 09, 2022</span>
+								<div class="projects--edit">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<h3>Shreyu - Design Updates</h3>
+							<span class="metabox">Designing</span>
+							<p>Update shreyu with modern and latest trends...</p>
+							<div class="projects__progress">
+								<h3>Progress<span>50%</span></h3>
+								<span class="projects__progress--bar"></span>
+							</div>
+							<div class="projects__images">
+								<img src="" alt="" />
+								<img src="" alt="" />
+							</div>
+						</div>
+						<div class="projects__box projects__box--yellow">
+							<div class="projects__date">
+								<span>Apr 09, 2022</span>
+								<div class="projects--edit">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<h3>Shreyu - Design Updates</h3>
+							<span class="metabox">Designing</span>
+							<p>Update shreyu with modern and latest trends...</p>
+							<div class="projects__progress">
+								<h3>Progress<span>50%</span></h3>
+								<span class="projects__progress--bar"></span>
+							</div>
+							<div class="projects__images">
+								<img src="" alt="" />
+								<img src="" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tasks" id="tasks">
+			<div class="container">
+				<div class="tasks__wrapper">
+					<div class="tasks__headline">
+						<h2>Tasks</h2>
+						<a href="#">View All</a>
+					</div>
+					<div class="tasks__boxes">
+						<div class="tasks__box">
+							<div class="tasks__box--checkbox">
+								<input type="checkbox">
+								<h3>Draft the new contract document for sales team</h3>
+							</div>
+							<span class="tasks__box--day blue">Today 10pm</span>
+							<div class="tasks__box--rate">
+								<div class="tasks__box--list">
+									<span>3/7</span>
+								</div>
+								<div class="tasks__box--comment">
+									<span>21</span>
+								</div>
+								<div class="tasks__box--level">
+									<span class="pink">High</span>
+								</div>
+							</div>
+						</div>
+						<div class="tasks__box">
+							<div class="tasks__box--checkbox">
+								<input type="checkbox">
+								<h3>Draft the new contract document for sales team</h3>
+							</div>
+							<span class="tasks__box--day blue">Today 10pm</span>
+							<div class="tasks__box--rate">
+								<div class="tasks__box--list">
+									<span>3/7</span>
+								</div>
+								<div class="tasks__box--comment">
+									<span>21</span>
+								</div>
+								<div class="tasks__box--level">
+									<span class="red">Medium</span>
+								</div>
+							</div>
+						</div>
+						<div class="tasks__box">
+							<div class="tasks__box--checkbox">
+								<input type="checkbox">
+								<h3>Draft the new contract document for sales team</h3>
+							</div>
+							<span class="tasks__box--day gray">Today 10pm</span>
+							<div class="tasks__box--rate">
+								<div class="tasks__box--list">
+									<span>3/7</span>
+								</div>
+								<div class="tasks__box--comment">
+									<span>21</span>
+								</div>
+								<div class="tasks__box--level">
+									<span class="red">Medium</span>
+								</div>
+							</div>
+						</div>
+						<div class="tasks__box">
+							<div class="tasks__box--checkbox">
+								<input type="checkbox">
+								<h3>Draft the new contract document for sales team</h3>
+							</div>
+							<span class="tasks__box--day gray">Today 10pm</span>
+							<div class="tasks__box--rate">
+								<div class="tasks__box--list">
+									<span>3/7</span>
+								</div>
+								<div class="tasks__box--comment">
+									<span>21</span>
+								</div>
+								<div class="tasks__box--level">
+									<span class="green">Low</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tasks__button">
+						<button type="button">Load More</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<ul class="footer__list">
+					<li>
+						<a href="#">About <span>-</span></a>
+					</li>
+					<li>
+						<a href="#">Privacy <span>-</span></a>
+					</li>
+					<li>
+						<a href="#">Terms <span>-</span></a>
+					</li>
+					<li>
+						<a href="#">Developers <span>-</span></a>
+					</li>
+					<li>
+						<a href="#">Support <span>-</span></a>
+					</li>
+					<li><a href="#">Careers </a></li>
+				</ul>
+				<div class="footer__rights">
+					<p>All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
